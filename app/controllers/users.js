@@ -1,4 +1,4 @@
-var UsersController = Em.ArrayController.extend({
+var UsersController = Ember.ArrayController.extend({
   sortProperties: ['name'],
   sortAscending: true,
   usersCount: function(){
