@@ -6,10 +6,10 @@ var UsersCreateController = Ember.ObjectController.extend({
 
       // create a record and save it to the store
       var newUser = this.store.createRecord('user', this.get('model'));
-      newUser.save();
+      new_user.save();
 
       // redirects to the user itself
-      this.transitionToRoute('user', newUser);
+      this.transitionToRoute('user', new_user);
     }
   }
 });
