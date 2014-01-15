@@ -8,7 +8,7 @@ var UsersCreateRoute = Ember.Route.extend({
   // associated with the usersCreateController
   renderTemplate: function(){
     this.render('user.edit', {
-      controller: 'usersCreate'
+      controller: 'users/create'
     });
   }
 });
