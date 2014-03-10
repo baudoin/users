@@ -1,2 +1,1 @@
-var ApplicationAdapter = DS.LSAdapter.extend();
-export default ApplicationAdapter;
+export default DS.LSAdapter.extend();
